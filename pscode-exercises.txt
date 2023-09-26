@@ -1,0 +1,47 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+mySum = A + B
+
+// Exercise 2: Check if a Number is Even or Odd
+
+If myInt % 2 = 0 Then Even = True
+If myInt % 2 <> 0 Then Odd = True
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+(A - Input Numbers)
+UserInput: num1
+UserInput: num2
+UserInput: num3
+UserInput: num4
+UserInput: num5
+
+(B - Calculate average)
+Average = (num1 + num2 + num3 + num4 + num5) / 5
+
+(C1 - Evaluate inputs to determine minimum)
+If num1 < num2 and num1 < num3 and num1 < num4 and num1 < num5 Then Minimum = num1
+If num2 < num1 and num2 < num3 and num2 < num4 and num2 < num5 Then Minimum = num2
+If num3 < num1 and num3 < num2 and num3 < num4 and num3 < num5 then Minimum = num3
+If num4 < num1 and num4 < num2 and num4 < num3 and num4 < num5 then Minimum = num4
+If num5 < num1 and num5 < num2 and num5 < num3 and num5 < num4 then Minimum = num5
+
+(C2 - Evaluate inputs to determine maximum)
+If num1 > num2 and num1 > num3 and num1 > num4 and num1 > num5 Then Maximum = num1
+If num2 > num1 and num2 > num3 and num2 > num4 and num2 > num5 Then Maximum = num2
+If num3 > num1 and num3 > num2 and num3 > num4 and num3 > num5 then Maximum = num3
+If num4 > num1 and num4 > num2 and num4 > num3 and num4 > num5 then Maximum = num4
+If num5 > num1 and num5 > num2 and num5 > num3 and num5 > num4 then Maximum = num5
+
+(D - Output messages)
+Output: "The average value input was " Average
+Output: "The minimum value input was " Minimum
+Output: "The maximum value input was " Maximum
+
+-- END --
